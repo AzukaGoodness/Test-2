@@ -1,0 +1,103 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("image1.jpeg");
+    
+}
+
+.container{
+    display: flex; 
+    flex-direction: row;    
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 20vh auto;
+    padding-right: 180px;
+}
+
+.text{
+    text-align: left;
+    margin: auto;
+}
+
+h2{
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400, 500, 600, 700;
+    margin-top: 60px;
+    color: orange;
+}
+
+.paragraph{
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400, 500, 600, 700;
+    margin: auto;
+    color: orange;
+}
+
+.button{
+    padding: 10px;
+    width: 350px;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#form{
+    width: 300px;
+    padding: 25px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#form button{
+    padding: 10px;
+    width: 100%;
+    margin: 5vh auto;
+    color: white;
+    background-color: rgb(18, 129, 18);
+    border: none;
+    border-radius: 3px;
+}
+
+.enter{
+    display: flex;
+    flex-direction: column;
+}
+
+.enter input{
+    border: 5px solid white;
+    border-radius: 3px;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.enter input:focus {
+    outline: 1;
+    outline-width: 1px;
+    outline-color: rgb(126, 125, 125);
+}
+
+.last{
+    font-size: 10px;
+}
+
+.last1{
+    color: rgb(126, 125, 125);
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
